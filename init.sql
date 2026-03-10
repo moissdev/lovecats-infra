@@ -5,6 +5,6 @@
 
 CREATE TABLE IF NOT EXISTS cat_facts_history (
     id SERIAL PRIMARY KEY,
-git     fact_text TEXT NOT NULL,
+    fact_text TEXT NOT NULL,
     created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
 );
